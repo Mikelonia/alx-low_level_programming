@@ -4,6 +4,7 @@
  * return:0 if no error, non zero if error
 */
 int main(void)
+{
 	int m, i, j;
 
 	for (i = '0'; i <= '9'; i++)
