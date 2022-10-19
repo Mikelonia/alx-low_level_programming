@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<main.h>
+#include"main.h"
 /* main - program entry point
  * function putchar puts the character
  */
