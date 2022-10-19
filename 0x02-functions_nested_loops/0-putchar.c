@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include"main.h"
 /**
- * main - program entry point
+ * main-program entry point
  * function putchar puts the character
- * return: 0 if success
+ * Return: 0 if no error, non zero if error
 */
 int main(void)
 {
