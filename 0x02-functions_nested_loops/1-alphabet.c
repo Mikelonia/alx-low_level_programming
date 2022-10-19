@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"main.h"
 /* main - program entry point
  * Return : 0 if succeed, non zero if fail
  */
