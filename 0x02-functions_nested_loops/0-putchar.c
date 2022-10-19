@@ -6,5 +6,5 @@
 int main(void)
 {
 	printf ("putchar, \n");
-	return (0):
+	return (0);
 }
