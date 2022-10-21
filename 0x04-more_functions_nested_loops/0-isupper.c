@@ -14,7 +14,16 @@ c = 'a';
 printf("%c: %d\n", c, _isupper(c));
 return (0);
 }
-void _isupper(int c)
+
+int _isupper(int c)
+	
 {
-	printf("I\'m now inside _isupper");
+
+	if ((c >= 'A') && (c <= 'Z'))
+
+		return (1);
+
+	else
+
+		return (0);
 }
