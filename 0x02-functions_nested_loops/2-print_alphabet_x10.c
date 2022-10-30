@@ -8,9 +8,9 @@ void print_alphabet_x10(void)
 	char la, lb;
 
 	for (la = '0'; la <= '9'; la++)
-	{
+	
 		for (lb = 'a'; lb <= 'z'; lb++)
-			_putchar ('\n');
-	}
+			_putchar (lb);
+	
 	_putchar ('\n');
 }
