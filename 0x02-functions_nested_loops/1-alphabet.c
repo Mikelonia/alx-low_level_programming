@@ -1,5 +1,6 @@
 #include"main.h"
-/*
+
+/**
  * print_alphabet - prints the alpha in lower case
  * return: void  if successful, else 1
  */
