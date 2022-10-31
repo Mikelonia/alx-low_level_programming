@@ -1,6 +1,7 @@
 #include"main.h"
+
 /**
- * print_alphabet - program entry starts here
+ * print_alphabet_x10 - program entry starts here
  * Return: 0 if success, non zero if fail
  * _putchar: adds the characters
  */
