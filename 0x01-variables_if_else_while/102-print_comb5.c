@@ -7,23 +7,36 @@
 */
 int main(void)
 {
-	int i, j;
-
-	for (i = 0; i < 99; i++)
+	int ifirst;
+	int i;
+	int jfirst;
+	int j;
+	
+	for (ifirst = 48; ifirst < 58; ifirst++)
 	{
-		for (j = i + 1; j <= 99; j++)
+		for (i = 48; i < 58; i++)
 		{
-		putchar ('0' + i / 10);
-		putchar ('0' + i % 10);
-		putchar (' ');
-		putchar ('0' + j / 10);
-		putchar ('0' + j % 10);
-		if (i == 98 && j == 99)
-		break;
-		putchar (',');
-		putchar (' ');
+			j = i + 1;
+			jfirst = ifirst;
+			for (; jfirst < 58; jfirst++)
+			{
+				for (; j < 58; j++)
+				{
+					putchar(ifirst);
+					putchar(i);
+					putchar(' ');
+					putchar(jfirst);
+					putchar(j);
+					if (ifirst != 57 || jfirst != 57 || i != 56 || j != 57)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+				j = 48;
+			}
+		}
 	}
-}
-putchar ('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
