@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 """
-Island perimeter
+Island perimeter, by Okpako Michael
 """
 
 
 def island_perimeter(grid):
     """
-    Find the island perimeter
+    Find the island perimeter, by Okpako Michael
     """
 
     len_1 = len(grid)
