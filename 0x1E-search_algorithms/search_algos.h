@@ -68,10 +68,10 @@ listint_t *create_list(int *array, size_t size);
 typedef struct skiplist_s
 {
 	int n;
-	size_t index;
 	struct skiplist_s *next;
 	struct skiplist_s *express;
 } skiplist_t;
+int advanced_binary(int *array, size_t size, int value);
 
 /* free_list - Deallocates a singly linked list */
 void free_list(listint_t *list);
